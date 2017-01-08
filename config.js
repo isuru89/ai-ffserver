@@ -8,14 +8,14 @@ module.exports = {
         apiai: {
             version: "20170105",
             language: "en",
-            clientToken: process.env.AI_TOKEN || '',
-            devToken: process.env.AI_DEVTOKEN || ''
+            clientToken: process.env.AI_TOKEN || 'abcdef',
+            devToken: process.env.AI_DEVTOKEN || 'abcdef'
         },
         witai: {
             version: "20170105",
             language: "en",
-            clientToken: process.env.AI_TOKEN || '',
-            devToken: process.env.AI_DEVTOKEN || ''
+            clientToken: process.env.AI_TOKEN || 'abcdef',
+            devToken: process.env.AI_DEVTOKEN || 'abcdef'
         }
     }
 
